@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>P2P Price 2 Pay — Agree the price. Pay safely.</title>
+<meta name="description" content="Safe-pay links for WhatsApp, Instagram, TikTok and X deals in Nigeria. Join the waitlist.">
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#14213d;background:#f7f9fc;line-height:1.5}
+.wrap{max-width:640px;margin:0 auto;padding:20px}
+header{background:#0b6e4f;color:#fff}header .wrap{padding:36px 20px}
+.brand{font-weight:700;opacity:.9}h1{font-size:2.1rem;line-height:1.15;margin:12px 0}
+.lead{font-size:1.1rem;opacity:.95}.btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{display:inline-block;padding:12px 18px;border-radius:10px;font-weight:700;text-decoration:none;background:#ffd166;color:#14213d}
+.btn.alt{background:#fff}
+h2{font-size:1.4rem;margin-top:32px}
+.steps{list-style:none;padding:0;counter-reset:s}.steps li{background:#fff;border-radius:12px;padding:16px 16px 16px 60px;margin:10px 0;position:relative;box-shadow:0 1px 3px #0001}
+.steps li:before{counter-increment:s;content:counter(s);position:absolute;left:16px;top:16px;width:30px;height:30px;border-radius:50%;background:#0b6e4f;color:#fff;text-align:center;line-height:30px;font-weight:700}
+form{background:#fff;border-radius:12px;padding:18px;margin:12px 0 24px;box-shadow:0 1px 3px #0001}
+label{display:block;font-weight:600;margin:12px 0 4px}input,select{width:100%;padding:12px;border:1px solid #c9d2e0;border-radius:8px;font-size:1rem}
+button{margin-top:16px;width:100%;padding:14px;border:0;border-radius:10px;background:#0b6e4f;color:#fff;font-size:1rem;font-weight:700}
+small,.note{color:#5a6577;font-size:.85rem}footer{padding:24px 0 40px;text-align:center}
+</style></head><body>
+<!-- SETUP: replace FORM_EMAIL_PLACEHOLDER (2 places) with the founder's email, e.g. https://formsubmit.co/you@example.com.
+     FormSubmit sends a one-time activation email on the first submission; click it before sharing the page. -->
+<header><div class="wrap">
+<div class="brand">P2P Price 2 Pay</div>
+<h1>Agree the price.<br>Pay safely.</h1>
+<p class="lead">Buying or selling on WhatsApp, Instagram, TikTok or X? We're building a safe-pay link: the buyer's money is held until delivery is confirmed. No more "pay first or deliver first?"</p>
+<div class="btns"><a class="btn" href="#buyers">I'm a buyer</a><a class="btn alt" href="#vendors">I'm a vendor</a></div>
+</div></header>
+<main class="wrap">
+<h2>How it will work</h2>
+<ol class="steps">
+<li><strong>Agree the price in chat.</strong> Keep using WhatsApp, Instagram, TikTok or X as you do today.</li>
+<li><strong>Vendor sends a safe-pay link.</strong> The buyer pays through it, and the money is held by a licensed payment partner — not sent straight to the vendor.</li>
+<li><strong>Money is released on delivery.</strong> The buyer confirms the goods arrived as agreed, and the vendor gets paid. If something's wrong, the buyer can raise a dispute.</li>
+</ol>
+<p class="note">We're at an early stage and not live yet. Join the waitlist to get early access and help shape it.</p>
+
+<h2 id="buyers">Buyers: join the waitlist</h2>
+<form onsubmit="return false" action="https://formsubmit.co/FORM_EMAIL_PLACEHOLDER" method="POST">
+<input type="hidden" name="_subject" value="New BUYER waitlist sign-up"><input type="hidden" name="type" value="buyer">
+<input type="hidden" name="_captcha" value="true"><input type="text" name="_honey" style="display:none">
+<label for="bn">First name</label><input id="bn" name="name" required>
+<label for="bw">WhatsApp number</label><input id="bw" name="whatsapp" type="tel" inputmode="tel" placeholder="+234..." required>
+<label for="be">Email (optional)</label><input id="be" name="email" type="email">
+<label for="bc">What do you usually buy online?</label>
+<select id="bc" name="category"><option>Gadgets & phones</option><option>Fashion & beauty</option><option>Food & groceries</option><option>Services</option><option>Other</option></select>
+<button type="submit" disabled style="opacity:.6;cursor:not-allowed">Sign-ups opening soon</button><p style="font-size:.9rem;text-align:center">Sign-ups opening soon. Check back shortly!</p>
+</form>
+
+<h2 id="vendors">Vendors: join the waitlist</h2>
+<form onsubmit="return false" action="https://formsubmit.co/FORM_EMAIL_PLACEHOLDER" method="POST">
+<input type="hidden" name="_subject" value="New VENDOR waitlist sign-up"><input type="hidden" name="type" value="vendor">
+<input type="hidden" name="_captcha" value="true"><input type="text" name="_honey" style="display:none">
+<label for="vn">Your name</label><input id="vn" name="name" required>
+<label for="vb">Business / handle</label><input id="vb" name="business" placeholder="@yourshop" required>
+<label for="vw">WhatsApp number</label><input id="vw" name="whatsapp" type="tel" inputmode="tel" placeholder="+234..." required>
+<label for="vp">Where do you sell most?</label>
+<select id="vp" name="platform"><option>WhatsApp</option><option>Instagram</option><option>TikTok</option><option>X (Twitter)</option><option>Other</option></select>
+<label for="vc">What do you sell?</label>
+<select id="vc" name="category"><option>Gadgets & phones</option><option>Fashion & beauty</option><option>Food</option><option>Services</option><option>Other</option></select>
+<label><input type="checkbox" name="interview_ok" value="yes" style="width:auto"> I'm open to a 15-minute chat about how I get paid today</label>
+<button type="submit" disabled style="opacity:.6;cursor:not-allowed">Sign-ups opening soon</button><p style="font-size:.9rem;text-align:center">Sign-ups opening soon. Check back shortly!</p>
+</form>
+<p><small>We'll only use your details to contact you about P2P Price 2 Pay. No spam.</small></p>
+</main>
+<footer><small>© 2026 P2P Price 2 Pay · Lagos, Nigeria</small></footer>
+</body></html>
